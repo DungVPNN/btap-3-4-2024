@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 
+     Array: Mảng thuộc kiểu dữ liệu phức tạp ( tham chiếu -reference)
+     I.cách khai báo
+     Q/A: có bao nhiêu cách khai báo ("khởi tạo 1 mảng")
+     1.let ar=[]
+     2.let student = new Aray();
+     Các phần tử trong mảng ngăn cách nhau dấu phẩy 
+     mảng có thể chứa nhiều kiểu dữ liệu khác nhau
+     mảng đánh chỉ mục index từ 0
+     kiểm tra độ dài của mảng :tên mảng .length
+     các cách duyệt mảng
+     -for
+     -for in : trả về chỉ mục
+     -for-of : trả về giá trị
+
+     CRUD
+     1.C:Crate
+     +unshift : thêm vào đầu
+     +push : thêm vào cuối
+     +splice : thêm vào vị trí bất kì
+     2.R:Read
+      for-in ; for-of
+     3.U:Update
+     dung splice
+     4.D:Delete
+     pop xóa phần tử cuối trong mảng
+     shift xóa phần tử đầu
+     dùng splice xóa vtri bất kì
+     -Các phương thức làm việc với array
+     pop xóa phần tử cuối
+     push thêm vào cuối
+     shift xóa phần tử đầu
+     unshift thêm vào đầu
+     join mảng->chuỗi
+     split chuỗi -> mảng
+     concat gộp mảng
+     splice thêm sửa xóa
+     slice cắt sao chép->mảng mới
+     map tạo mảng mới bằng cách thực hiện một hàm cho mỗi phần tử
+     filter tạo 1 mảng mới cho các phần tử thỏa mãn các điều kiện
+     thỏa mãn trả về giá trị không thỏa mãn trả về rỗng hoặc undefined
+     forEach 
+     reduce biến đổi mảng thành 1 giá trị duy nhất
+
+     
+     find   tìm kiếm phần tử trả về phần tử hoặc undefined
+     find index tìm kiếm phần tử trả về giá trị của phần tử hoặc -1
+     start witch
+     end witch 
+     CharAt
+     indexof trả về chỉ mục của phần đầu tiên nếu không có sẽ -1
+     include kiểm tra các giá trị trong mảng trả về true và false
+     every kiểm tra các phần tử trong mảng thỏa mã điều kiện
+     fill
+     copywithin sao chếp phần tử mảng
+     reverse đảo ngược các kí tự trong mảng
+     sort sắp xếp 
+
+
+
+
+
+         -->
+    <input id="items" type="text" placeholder="Nhap ten san pham" />
+    <button onclick="addToCart()">Mua</button>
+  </body>
+  <script>
+    // let students = ["hoa", "huong", "duong"];
+    // students.splice(2, 0, "xinh");
+    // for (let i = 0; i < students.length; i++) {
+    //   console.log(students[i]);
+    // }
+    // for (let key1 in students) {
+    //   console.log(key1);
+    // }
+    // console.log("*************************************");
+    // for (let key1 of students) {
+    //   console.log(key1);
+    // }
+
+    // let products = [
+    //   {
+    //     id: 1,
+    //     name: "Iphone5",
+    //     price: 5000,
+    //   },
+    //   {
+    //     id: 2,
+    //     name: "Iphone6",
+    //     price: 6000,
+    //   },
+    //   {
+    //     id: 3,
+    //     name: "Iphone7",
+    //     price: 8000,
+    //   },
+    // ];
+    // let cart = [];
+    // function addToCart() {
+    //   let isflag = false;
+    //   let productName = document.getElementById("items").value;
+    //   let prcart;
+    //   for (let i = 0; i < products.length; i++) {
+    //     if (productName === products[i].name) {
+    //       alert("Mua san pham thanh cong");
+    //       prcart = products[i];
+    //       isflag = true;
+    //       break;
+    //     }
+    //   }
+    //   if (!isflag) {
+    //     alert("Khong co san pham");
+    //   } else {
+    //     let check = false;
+    //     for (let i = 0; i < cart.length; i++) {
+    //       if (productName === cart[i].name) {
+    //         check = true;
+    //         break;
+    //       }
+    //     }
+    //     if (check) {
+    //       for (let j = 0; j < cart.length; j++) {
+    //         if (productName === cart[j].name) {
+    //           cart[j].quantity++;
+    //         }
+    //       }
+    //     } else {
+    //       prcart.quantity = 1;
+    //       cart.push(prcart);
+    //     }
+    //   }
+    //   console.log(cart);
+    // }
+
+    // let arr1 = [1, 3, 5];
+    // let a;
+    // console.log(result);
+
+    for (let i = 0; i <= 1; i++) {
+      console.log(i);
+      for (let j = 0; j <= 1; j++) {
+        console.log(j);
+        break;
+      }
+    }
+  </script>
+</html>

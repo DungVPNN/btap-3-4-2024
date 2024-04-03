@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 
+        FUNCTION 
+        -Gồm các câu lệnh thực hiện 1 chức năng duy nhất
+        1.Function Declaration
+        2.Function Expression
+        3.Arrow Function
+        4.IIFE (Immediately Invoked Function Expression)
+        thuong dung lam thu vien vi no co kha nang dong goi khong anh huong den function trung ten
+        II-các thực thi hàm đối số trong hàm
+        III-tham số và đối số trong hàm
+        IV-đệ quy
+        V call-back funtion 
+     -->
+  </body>
+  <script>
+    function sayHello() {
+      console.log("hello");
+    }
+    let  result = function () {
+      console.log("function expression function");
+    };
+    result();
+    let arrow = () => {
+      console.log("arrow function");
+    };
+    arrow();
+    let arrow1 = () => console.log("arrow1");
+    arrow1();
+    function a1() {
+      console.log("a1");
+    }
+    function a1() {
+      console.log("a11");
+    }
+    a1();
+    a1();
+    (function a1() {
+      console.log("a1");
+    })();
+    (function a1() {
+      console.log("a11");
+    })();
+  </script>
+</html>

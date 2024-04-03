@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 
+        Viết chương trình nhập vào 5 số nguyên in ra số lớn nhất và sắp xếp chuỗi theo thứ tự giảm giần
+
+     -->
+  </body>
+  <script>
+    let n1 = +prompt("so thu 1");
+    let n2 = +prompt("so thu 2");
+    let n3 = +prompt("so thu 3");
+    let n4 = +prompt("so thu 4");
+    let n5 = +prompt("so thu 5");
+    let n = [n1, n2, n3, n4, n5];
+    let max = 0;
+    for (let i = 0; i < n.length; i++) {
+      if (max < n[i]) {
+        max = n[i];
+      }
+    }
+    console.log(max);
+    let sapXep = (x, y) => y - x;
+    n.sort(sapXep);
+    console.log(n);
+
+
+    for ( let i =0; i<5; i++){
+        for ( let j =0; j<5;j++) {
+              
+        }
+    }
+  </script>
+</html>

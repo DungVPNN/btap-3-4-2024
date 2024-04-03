@@ -1,0 +1,43 @@
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.box-left{
+    align-items: center;
+    display: flex;
+}
+form{
+    border: 1px solid black;
+    width: 300px;
+    padding: 10px;
+}
+button{
+    justify-content: end;
+    width: 100px;
+    height: 30px;
+}
+.box-right{
+    display: flex;
+    align-items: center;
+    gap: 5px;   
+}
+.box-right input{
+    width: 200px;
+    height: 20px;
+}
+.box-right button{
+    width: 50px;
+    height: 20px;
+}
+.form2{
+    border: 1px solid black;
+    width: 550px;
+    padding: 12px;
+    height: auto;    
+}
+section{
+    display: flex;
+    justify-content: space-evenly;
+}

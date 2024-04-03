@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .dom {
+        color: red;
+      }
+      .title {
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="dom">DOM</h1>
+    <button onclick="changeColor()">Click</button>
+    <p class="dom123">NG</p>
+    <p class="dom123">HN</p>
+    <!-- 
+        DOM: document object model
+        Mô hình tài liệu dạng đối tượng
+        Khi trang web được tải thì trình duyệt (browser) sẽ tạo ra một mô hình cây DOM
+        các thành phần trong DOM 3 thành phần
+        ELement 
+        qerryselector trả về 1 element đầu tiên duy nhất.
+        qerryselectorall trả về 1 modelist.
+        Artribute thuộc tính
+        classList: lấy ra danh sách của element
+        cung cấp các phương thức
+        add(): thêm class
+        remove: xóa class
+        contain: kiểm tra xem có tồn class tại không
+        toggle: như công tắc có class thì xóa đi không có class thì thêm vào
+        Text:
+        -innerHTML
+        -textContent
+        -innerText
+        =Các cách để lấy Element
+        lấy theo id
+        TRẢ VỀ ELEMENT CÓ ID ĐÓ
+        lấy theo class 
+        lấy theo thẻ tag
+        lấy theo selector
+     -->
+  </body>
+  <script>
+    // let elem = document.getElementById("dom");
+    // let a = document.getElementsByClassName("dom123");
+    // let b = document.getElementsByTagName("h1");
+    // let c = document.querySelector(".dom123");
+    // console.log("c", c);
+    // let count = 0;
+    // function changeColor() {
+    //   let element = document.getElementById("dom");
+    //   count++;
+    //   if (count % 2 !== 0) {
+    //     element.innerHTML = "Hoc lap trinh";
+    //   } else {
+    //     element.innerHTML = "DOM";
+    //   }
+    // }
+  </script>
+</html>

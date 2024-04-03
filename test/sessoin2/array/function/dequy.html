@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 
+        thế nào gọi là đệ quy
+        hàm tự gọi lại chính nó
+        dùng đệ quy tính tổng từ 1-10
+     -->
+  </body>
+  <script>
+    function deQuy(a) {
+      if (a == 1) {
+        return 1;
+      }
+      return a + deQuy(--a);
+    }
+    var a = [[3, 4]];
+    console.log(a);
+  </script>
+</html>

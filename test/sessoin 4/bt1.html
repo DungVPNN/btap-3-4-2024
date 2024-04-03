@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bt1.css" />
+  </head>
+  <body>
+    <section>
+      <form>
+        <h1>Thong tin sinh vien</h1>
+        <div class="box-left">
+          <div class="left">
+            <div class="input">
+              <p>Ho va ten</p>
+              <input
+                id="name"
+                type="text"
+                placeholder="vui long nhap"
+                required
+              />
+            </div>
+            <div class="input">
+              <p>Email</p>
+              <input id="email" type="text" placeholder="vui long nhap" />
+            </div>
+            <div class="input">
+              <p>So dien thoai</p>
+              <input id="phone" type="text" placeholder="vui long nhap" />
+            </div>
+            <div class="input">
+              <p>Que quan</p>
+              <input id="address" type="text" placeholder="vui long nhap" />
+            </div>
+            <div class="input">
+              <p>Gioi tinh</p>
+              <input type="radio" value="Nam" name="gender" />Nam
+              <input type="radio" value="Nu" name="gender" />Nu
+            </div>
+            <div class="input">
+              <button id="btn" onclick="click1(event)">Luu lai</button>
+            </div>
+          </div>
+        </div>
+      </form>
+      <!-- 
+        Box-2
+       -->
+      <div class="form2">
+        <h3>Danh sach hoc vien</h3>
+        <div class="box-right">
+          <p>Tim kiem ten hoc vien</p>
+          <input id="search" type="text" />
+          <button onclick="search1()">search</button>
+        </div>
+        <table border="">
+          <thead>
+            <td>#</td>
+            <td>Ho va ten</td>
+            <td>Email</td>
+            <td>Dien thoai</td>
+            <td>Gender</td>
+            <td>Dia chi</td>
+            <td>Hanh dong</td>
+            <td><button onclick="sortName" >apla b</button></td>
+          </thead>
+          <tbody id="tbody">
+            <!-- <tr>
+              <th>1</th>
+              <td>Rikkei</td>
+              <td>rikkei@gmail.com</td>
+              <td>0886666731</td>
+              <td>Nam</td>
+              <td>HN</td>
+              <td>
+                <a href="#">edit</a>
+                |
+                <a href="#">delete</a>
+              </td>
+            </tr>
+            <tr>
+              <th>2</th>
+              <td>academy</td>
+              <td>academy@gmail.com</td>
+              <td>0886666731</td>
+              <td>Nu</td>
+              <td>HCM</td>
+              <td>
+                <a href="#">edit</a>
+                |
+                <a href="#">delete</a>
+              </td>
+            </tr> -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </body>
+  <script src="bt1.js"></script>
+</html>

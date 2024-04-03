@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 
+        callback-function
+        nó là hàm 
+        được truyền làm đối số của hàm khác
+     -->
+  </body>
+  <script>
+    // console.log("111");
+    // setTimeout(() => {
+    //     console.log("222")
+    // },0);
+    // console.log("333")
+    function xinSoDt(a) {
+      console.log("Na goi cho Nhi xin so Hung");
+      setTimeout(() => {
+        console.log("Trang mat 3s tim so");
+        sdt = 123456789;
+        a(sdt);
+      }, 3000);
+    }
+    function coSoMoiGoi(sdt) {
+      console.log(`Na goi cho Nhi theo so ${sdt}`);
+    }
+    xinSoDt(coSoMoiGoi);
+  </script>
+</html>

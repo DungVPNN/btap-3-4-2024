@@ -1,0 +1,40 @@
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main img{
+    border: 3px solid black;
+    width: 500px;
+    height: 500px;
+}
+.main-1{
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.main-1 img{
+    width: 100px;
+    height: 100px;
+}
+.form {
+    margin: 30px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    background: lightskyblue;
+    padding: 10px;
+}
+button{
+    font-size: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-1 li{
+    list-style: none;
+}
+.opacity {
+    opacity: 0.5;
+}
